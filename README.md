@@ -42,6 +42,8 @@ To run the web application on your own machine, please follow these steps:
 2.  **Install the Required Libraries**
     ```bash
     pip install -r requirements.txt
+    python -m pip install streamlit
+    
     ```
 
 3.  **Run the Streamlit App**
