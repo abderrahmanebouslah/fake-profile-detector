@@ -2,8 +2,7 @@
 
 This project uses machine learning to detect fake social media profiles. It includes a complete pipeline for data preprocessing, feature engineering, model training, and evaluation. The final, optimized model is deployed as an interactive web application using Streamlit.
 
-![Streamlit App Screenshot](https://i.imgur.com/your-screenshot-url.png)
-*(Optional: You can take a screenshot of your running app, upload it to a site like Imgur, and paste the link here.)*
+Kaggle Notebook link: `https://www.kaggle.com/code/abderahmanebouslah/pw2-bslh`
 
 ---
 
@@ -38,23 +37,12 @@ To run the web application on your own machine, please follow these steps:
     cd your-repo-name
     ```
 
-2.  **Create and Activate a Virtual Environment (Recommended)**
-    ```bash
-    # For Windows
-    python -m venv venv
-    .\venv\Scripts\activate
-
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3.  **Install the Required Libraries**
+2.  **Install the Required Libraries**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Run the Streamlit App**
+3.  **Run the Streamlit App**
     ```bash
     streamlit run app.py
     ```
@@ -64,7 +52,12 @@ To run the web application on your own machine, please follow these steps:
 
 ## Project Structure
 
-├── app.py                  # The Python script for the Streamlit web application.├── xgb_model.pkl           # The saved, trained XGBoost model file.├── scaler.pkl              # The saved Scikit-learn StandardScaler object.├── feature_columns.pkl     # The saved list of feature names.├── requirements.txt        # A list of all necessary Python packages.├── .gitignore              # Specifies which files Git should ignore.└── README.md               # This file.
+├── app.py                  # The Python script for the Streamlit web application.
+├── xgb_model.pkl           # The saved, trained XGBoost model file.
+├── scaler.pkl              # The saved Scikit-learn StandardScaler object.
+├── feature_columns.pkl     # The saved list of feature names.
+├── requirements.txt        # A list of all necessary Python packages.
+└── README.md               # This file.
 ---
 
 ## Technologies Used
