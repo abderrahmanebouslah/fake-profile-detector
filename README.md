@@ -53,10 +53,15 @@ To run the web application on your own machine, please follow these steps:
 ## Project Structure
 
 ├── app.py                  # The Python script for the Streamlit web application.
+
 ├── xgb_model.pkl           # The saved, trained XGBoost model file.
+
 ├── scaler.pkl              # The saved Scikit-learn StandardScaler object.
+
 ├── feature_columns.pkl     # The saved list of feature names.
+
 ├── requirements.txt        # A list of all necessary Python packages.
+
 └── README.md               # This file.
 ---
 
