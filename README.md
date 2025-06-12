@@ -2,7 +2,9 @@
 
 This project uses machine learning to detect fake social media profiles. It includes a complete pipeline for data preprocessing, feature engineering, model training, and evaluation. The final, optimized model is deployed as an interactive web application using Streamlit.
 
-Kaggle Notebook link: `https://www.kaggle.com/code/abderahmanebouslah/pw2-bslh`
+Kaggle Notebook link : `https://www.kaggle.com/code/abderahmanebouslah/pw2-bslh`
+
+discreption of dataset : `https://docs.google.com/spreadsheets/d/13cRQskL-pA06mfVFwu3tNRSUdgclK0IuEuoDUzmpMgU/edit?usp=sharing`
 
 ---
 
@@ -21,7 +23,7 @@ Kaggle Notebook link: `https://www.kaggle.com/code/abderahmanebouslah/pw2-bslh`
 
 The final, tuned XGBoost model achieved the following performance on the test set:
 
-- **Accuracy:** ~90.5%
+- **Accuracy:** ~91%
 - **AUC-ROC Score:** ~0.965
 - **Key Finding:** The model is highly effective at distinguishing between real and fake profiles, with a precision of ~95% (meaning its "fake" predictions are very trustworthy).
 
